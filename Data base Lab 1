@@ -1,0 +1,26 @@
+# Database-labs
+1. Display the name, job, and salary for all employees whose job is Clerk
+or Analyst and their salary are not equal to Rs.1000, Rs.3000, or
+Rs.5000.
+2. Display in descending order of salary. (4 rows)
+
+3. Calculate the average salary of all the employees. (2073.21429)
+4. List all the employees names, their department numbers and hire date
+with ascending order of dept numbers and descending order of hire date
+within a particular dept. (multiple columns in ORDER BY clause).
+
+5. Find emp_no, name, salary and hire date of the employees who were
+hired in the first half year of 1981.
+6. Sort the output in ascending order of hiredate.
+
+7. How many different job titles are stored in the relation emp? (5)
+8. List the minimum and maximum salary in relation emp. (800, 5000)
+
+9. Sum all the salaries of employees working in the SALES department.
+(9400) 10.Compute the difference between the minimum and maximum
+salary. (4200)
+
+11.List all employees whose name contains A in the third position. (3
+names) 12.How many employees earn more than Rs. 2000. (6 emps)
+
+13.Find total number of salesman and the sum of their salaries. (14, 29025)

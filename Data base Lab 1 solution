@@ -1,0 +1,10 @@
+1-SELECT ENAME,JOB,SAL FROM EMP WHERE (JOB='CLERK' OR JOB='ANALYST') AND (SAL!=3000 AND SAL!=1000 AND SAL!=5000);
+2-select sal FROM emp order by sal desc;   3-select avg(sal) from emp; 
+4-select ename,deptno,hiredate FROM emp order by deptno asc,hiredate desc;
+5-select empno,ename,sal,hiredate FROM emp where hiredate between '01-JAN-81' AND '30-JUN-81'; 
+6-select * from emp order by hiredate asc; 7-select count(distinct job) from emp; 
+8-select min(sal) , max(sal) from emp; 
+9-select sum(sal) from emp where deptno=30; 
+10-select max(sal)-min(sal) from emp; 11-select ename from emp where ename like '__A%'; 
+12-select count(ename) from emp where sal>2000; 
+13-select count(job),sum(sal) from emp;
